@@ -16,5 +16,10 @@ namespace WinGit_C
         {
             InitializeComponent();
         }
+
+        private void bVerMensaje_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("MENSAJE DESDE EL PRIMER BOTON DE MENSAJES");
+        }
     }
 }
