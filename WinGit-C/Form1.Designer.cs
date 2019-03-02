@@ -33,7 +33,7 @@
             // 
             // bVerMensaje
             // 
-            this.bVerMensaje.Location = new System.Drawing.Point(84, 53);
+            this.bVerMensaje.Location = new System.Drawing.Point(452, 136);
             this.bVerMensaje.Name = "bVerMensaje";
             this.bVerMensaje.Size = new System.Drawing.Size(173, 95);
             this.bVerMensaje.TabIndex = 0;
