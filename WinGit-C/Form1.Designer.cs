@@ -30,7 +30,6 @@
         {
             this.bVerMensaje = new System.Windows.Forms.Button();
             this.bMensajes2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bVerMensaje
@@ -52,21 +51,11 @@
             this.bMensajes2.Text = "VER MENSAJES 2";
             this.bMensajes2.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(501, 52);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 85);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "CALCULAR";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.bMensajes2);
             this.Controls.Add(this.bVerMensaje);
             this.Name = "Form1";
@@ -79,7 +68,6 @@
 
         private System.Windows.Forms.Button bVerMensaje;
         private System.Windows.Forms.Button bMensajes2;
-        private System.Windows.Forms.Button button1;
     }
 }
 
