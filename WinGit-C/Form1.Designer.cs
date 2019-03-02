@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.bVerMensaje = new System.Windows.Forms.Button();
+            this.bMensajes2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bVerMensaje
@@ -40,11 +41,21 @@
             this.bVerMensaje.Text = "VER MENSAJE";
             this.bVerMensaje.UseVisualStyleBackColor = true;
             // 
+            // bMensajes2
+            // 
+            this.bMensajes2.Location = new System.Drawing.Point(30, 334);
+            this.bMensajes2.Name = "bMensajes2";
+            this.bMensajes2.Size = new System.Drawing.Size(424, 78);
+            this.bMensajes2.TabIndex = 1;
+            this.bMensajes2.Text = "VER MENSAJES 2";
+            this.bMensajes2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bMensajes2);
             this.Controls.Add(this.bVerMensaje);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -55,6 +66,7 @@
         #endregion
 
         private System.Windows.Forms.Button bVerMensaje;
+        private System.Windows.Forms.Button bMensajes2;
     }
 }
 
