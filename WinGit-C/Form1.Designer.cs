@@ -34,9 +34,9 @@
             // 
             // bVerMensaje
             // 
-            this.bVerMensaje.Location = new System.Drawing.Point(501, 317);
+            this.bVerMensaje.Location = new System.Drawing.Point(450, 172);
             this.bVerMensaje.Name = "bVerMensaje";
-            this.bVerMensaje.Size = new System.Drawing.Size(173, 95);
+            this.bVerMensaje.Size = new System.Drawing.Size(268, 156);
             this.bVerMensaje.TabIndex = 0;
             this.bVerMensaje.Text = "VER MENSAJE";
             this.bVerMensaje.UseVisualStyleBackColor = true;
