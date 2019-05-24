@@ -19,7 +19,7 @@ namespace WinGit_C
 
         private void bVerMensaje_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("MENSAJE DESDE EL PRIMER BOTON DE MENSAJES");
+            MessageBox.Show("MENSAJE DESDE EL PRIMER BOTON DE MENSAJES que ahora esta en verde");
         }
     }
 }

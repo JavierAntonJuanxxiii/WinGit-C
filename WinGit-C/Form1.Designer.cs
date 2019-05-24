@@ -34,12 +34,13 @@
             // 
             // bVerMensaje
             // 
+            this.bVerMensaje.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.bVerMensaje.Location = new System.Drawing.Point(450, 172);
             this.bVerMensaje.Name = "bVerMensaje";
             this.bVerMensaje.Size = new System.Drawing.Size(268, 156);
             this.bVerMensaje.TabIndex = 0;
             this.bVerMensaje.Text = "VER MENSAJE";
-            this.bVerMensaje.UseVisualStyleBackColor = true;
+            this.bVerMensaje.UseVisualStyleBackColor = false;
             this.bVerMensaje.Click += new System.EventHandler(this.bVerMensaje_Click);
             // 
             // bMensajes2
