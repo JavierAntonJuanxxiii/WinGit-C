@@ -21,5 +21,10 @@ namespace WinGit_C
         {
             MessageBox.Show("MENSAJE DESDE EL PRIMER BOTON DE MENSAJES que ahora esta en verde");
         }
+
+        private void BMensajes2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ESTE ES EL SEGUNDO BOTON QUE ESTOY CODIFICANDO");
+        }
     }
 }

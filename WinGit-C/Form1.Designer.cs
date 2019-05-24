@@ -45,12 +45,15 @@
             // 
             // bMensajes2
             // 
+            this.bMensajes2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.bMensajes2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bMensajes2.Location = new System.Drawing.Point(30, 334);
             this.bMensajes2.Name = "bMensajes2";
             this.bMensajes2.Size = new System.Drawing.Size(424, 78);
             this.bMensajes2.TabIndex = 1;
             this.bMensajes2.Text = "VER MENSAJES 2";
-            this.bMensajes2.UseVisualStyleBackColor = true;
+            this.bMensajes2.UseVisualStyleBackColor = false;
+            this.bMensajes2.Click += new System.EventHandler(this.BMensajes2_Click);
             // 
             // Form1
             // 
